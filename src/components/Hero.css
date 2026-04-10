@@ -1,0 +1,43 @@
+.main-text {
+  font-size: 96px;
+  font-weight: bold;
+  color: white;
+  line-height: 1.1;
+  margin-bottom: 20px; 
+}
+
+.secondary-text {
+  background: linear-gradient(to right, #22D3EE, #818CF8); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+    width: 191px;
+    height: 56px;
+    border: none;
+    background-color: #818CF8; 
+    font-size: 16px; 
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s ease;
+    text-decoration: none; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    box-sizing: border-box;
+}
+
+.btn:hover {
+    background-color: #6366F1;
+}
+
+.btn-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
